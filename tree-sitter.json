@@ -1,0 +1,38 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "cobweb",
+      "camelcase": "Cobweb",
+      "title": "Cobweb",
+      "scope": "source.cobweb",
+      "file-types": [
+        "cobweb"
+      ],
+      "injection-regex": "^cobweb$",
+      "class-name": "TreeSitterCobweb"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Cobweb grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "FabricSoul"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/tree-sitter/tree-sitter-cobweb"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
