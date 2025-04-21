@@ -30,8 +30,8 @@ This tells Neovim to treat files with the `.cob` or `.cobweb` extensions as `cob
 -- In your `init.lua`
 require'nvim-treesitter.parsers'.get_parser_configs().cobweb = {
   install_info = {
-    url = "https://github.com/YOUR_USERNAME/tree-sitter-cobweb",
-    files = { "src/parser.c", "src/scanner.c" }, -- if you use scanner.c
+    url = "https://github.com/FabricSoul/tree-sitter-cobweb",
+    files = { "src/parser.c", }, -- if you use scanner.c
     branch = "main", -- or whatever branch has your parser
   },
   filetype = "cobweb",
